@@ -20,6 +20,5 @@ Vue.use(require('vue-moment'), {
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
-  template: '<App/>',
-  components: { App }
+  render: c => c(App)
 })

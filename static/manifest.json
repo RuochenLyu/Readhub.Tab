@@ -1,9 +1,0 @@
-{
-  "name": "Readhub.Tab",
-  "description": "Readhub New Tab",
-  "version": "1.0.0",
-  "incognito": "split",
-  "chrome_url_overrides": {"newtab": "index.html"},
-  "permissions": ["storage"],
-  "manifest_version": 2
-}

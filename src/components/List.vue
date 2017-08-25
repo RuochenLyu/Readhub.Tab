@@ -22,27 +22,23 @@ export default {
   },
 
   created: function () {
-    let that = this
-    setTimeout(function () {
-      that.fetchData()
-    }, 3000)
+    this.fetchData()
   },
 
   methods: {
     fetchData: function () {
-      this.$http.get('//api.rss2json.com/v1/api.json', {
+      let self = this
+      this.$http.get('http://api.rss2json.com/v1/api.json', {
         params: {
           rss_url: 'http://readhub.bayes.cafe/rss?channel=topics',
           api_key: 'havl9vqc7nmdjlmbofbltgeej3q0gqweh0ftpd3k',
           count: 10
         }
       }).then(function (response) {
+        self.entries = response.data.items
         storage.save(response.data.items)
       })
     }
   }
 }
 </script>
-
-<style lang="scss" scoped>
-</style>
