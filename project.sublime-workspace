@@ -1,0 +1,1447 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fo",
+				"folder"
+			],
+			[
+				"ques",
+				"question"
+			],
+			[
+				"text",
+				"lighter-text-color"
+			],
+			[
+				"rem",
+				"remove_from_team"
+			],
+			[
+				"sle",
+				"select"
+			],
+			[
+				"invi",
+				"invite-textarea"
+			],
+			[
+				"todo",
+				"todo-detail"
+			],
+			[
+				"docu",
+				"document"
+			],
+			[
+				"br",
+				"border-radius"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"bro",
+				"border-color"
+			],
+			[
+				"bxsha",
+				"box-shadow"
+			],
+			[
+				"color",
+				"color-g5"
+			],
+			[
+				"com",
+				"component"
+			],
+			[
+				"f",
+				"font-size"
+			],
+			[
+				"hover",
+				"hover-color"
+			],
+			[
+				"gr",
+				"groups"
+			],
+			[
+				"light",
+				"light-text-color"
+			],
+			[
+				"upurl",
+				"uploadUrl"
+			],
+			[
+				"cur",
+				"currentPage"
+			],
+			[
+				"bra",
+				"border-radius"
+			],
+			[
+				"pub",
+				"publication"
+			],
+			[
+				"fz",
+				"font-size-tiny"
+			],
+			[
+				"colorli",
+				"color-light-text"
+			],
+			[
+				"_init",
+				"_initIteration"
+			],
+			[
+				"te",
+				"color-lighter-text"
+			],
+			[
+				"g",
+				"color-g6"
+			],
+			[
+				"co",
+				"color-g3"
+			],
+			[
+				"curr",
+				"current_member"
+			],
+			[
+				"off",
+				"Offline"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"listy",
+				"list-style"
+			],
+			[
+				"btn-",
+				"btn-member-groups"
+			],
+			[
+				"btn",
+				"btn-primary"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"ex",
+				"expired"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"tran",
+				"transparent"
+			],
+			[
+				"sub",
+				"subgroups"
+			],
+			[
+				"cu",
+				"current_member"
+			],
+			[
+				"data",
+				"data-stack"
+			],
+			[
+				"tex",
+				"text-lll"
+			],
+			[
+				"textin",
+				"text-align"
+			],
+			[
+				"pro",
+				"project"
+			],
+			[
+				"par",
+				"params"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "set js",
+		"selected_items":
+		[
+			[
+				"set js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"set sj",
+				"Set Syntax: Java"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"set scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"cssc",
+				"Run CSScomb"
+			],
+			[
+				"fileiconset",
+				"A File Icon: Settings"
+			],
+			[
+				"afileicon",
+				"A File Icon: Settings"
+			],
+			[
+				"set htmlrail",
+				"Set Syntax: HTML (Rails)"
+			],
+			[
+				"bea",
+				"SassBeautify: Convert from SCSS to current type"
+			],
+			[
+				"set coffe",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"set jsrails",
+				"Set Syntax: JavaScript (Rails)"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"set css",
+				"Set Syntax: CSS"
+			],
+			[
+				"set htmlrai",
+				"Set Syntax: HTML (Rails)"
+			],
+			[
+				"jsrails",
+				"Set Syntax: JavaScript (Rails)"
+			],
+			[
+				"set htmlrails",
+				"Set Syntax: HTML (Rails)"
+			],
+			[
+				"set json",
+				"Set Syntax: JSON"
+			],
+			[
+				"html",
+				"HTMLBeautify"
+			],
+			[
+				"set html",
+				"Set Syntax: HTML"
+			],
+			[
+				"set rails ",
+				"Set Syntax: JavaScript (Rails)"
+			],
+			[
+				"set rails",
+				"Set Syntax: HTML (Rails)"
+			],
+			[
+				"set coffee",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"setcoff",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"setr js",
+				"Set Syntax: JavaScript (Stylelint)"
+			],
+			[
+				"set htmrails",
+				"Set Syntax: HTML (Rails)"
+			],
+			[
+				"setcoffee",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"set rb",
+				"Set Syntax: Ruby"
+			],
+			[
+				"setcofe",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"set htmlra",
+				"Set Syntax: HTML (Rails)"
+			],
+			[
+				"set coff",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"removepackage",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 503.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/ruochen/Documents/workspace/Readhub.Tab"
+	],
+	"file_history":
+	[
+		"/Users/ruochen/Documents/workspace/Readhub.Tab/src/storage.js",
+		"/Users/ruochen/Documents/workspace/Readhub.Tab/src/components/List.vue",
+		"/Users/ruochen/Documents/workspace/Readhub.Tab/index.html",
+		"/Users/ruochen/Documents/workspace/Readhub.Tab/src/.sublime-project",
+		"/Users/ruochen/Documents/workspace/Readhub.Tab/src/App.vue",
+		"/Users/ruochen/Documents/workspace/Readhub.Tab/src/main.js",
+		"/Users/ruochen/Documents/workspace/Readhub.Tab/package-lock.json",
+		"/Users/ruochen/Documents/tower-v3/app/controllers/teams_controller.rb",
+		"/Users/ruochen/Documents/tower-v3/app/views/teams/join_requests/approvals/new.html.erb",
+		"/Users/ruochen/Documents/tower-v3/app/views/calendar_events/_form.html.erb",
+		"/Users/ruochen/Documents/tower-v3/app/views/calendar_events/new.html.erb",
+		"/Users/ruochen/Documents/tower-v3/app/policies/boards/calendar_event_policy.rb",
+		"/Users/ruochen/Documents/tower-v3/app/controllers/teams/calendars_controller.rb",
+		"/Users/ruochen/Documents/tower-v3/app/views/layouts/board.html.erb",
+		"/Users/ruochen/Documents/tower-v3/app/assets/javascripts/desktop/todos/show_page.coffee",
+		"/Users/ruochen/Documents/tower-v3/app/policies/base_ancestry_policy.rb",
+		"/Users/ruochen/Documents/tower-v3/app/assets/stylesheets/desktop/todos/components/item.scss",
+		"/Users/ruochen/Documents/tower-v3/app/views/todos/show.html.erb",
+		"/Users/ruochen/Documents/tower-v3/app/views/boards/lists/show.html.erb",
+		"/Users/ruochen/Documents/tower-v3/app/views/boards/_header.html.erb",
+		"/Users/ruochen/Documents/tower-v3/app/views/components/members/_star.html.erb",
+		"/Users/ruochen/Documents/tower-v3/app/policies/board_policy.rb",
+		"/Users/ruochen/Documents/tower-v3/app/views/components/todos/_item.html.erb",
+		"/Users/ruochen/Documents/tower-v3/app/assets/stylesheets/desktop/boards/topics/list.scss",
+		"/Users/ruochen/Documents/tower-v3/app/models/board.rb",
+		"/Users/ruochen/Documents/tower-v3/app/models/weeklies/answer.rb",
+		"/Users/ruochen/Documents/tower-v3/app/policies/weeklies/answer_policy.rb",
+		"/Users/ruochen/Documents/tower-v3/app/components/members/star_component.rb",
+		"/Users/ruochen/Documents/WePlusWeb/app/views/spaces/index.html.erb",
+		"/Users/ruochen/Documents/WePlusWeb/app/views/layouts/application.html.erb",
+		"/Users/ruochen/Documents/WePlusWeb/app/controllers/application_controller.rb",
+		"/Users/ruochen/Documents/WePlusWeb/app/controllers/cities_controller.rb",
+		"/Users/ruochen/Documents/WePlusWeb/app/assets/javascripts/application.js",
+		"/Users/ruochen/Documents/WePlusWeb/.ruby-version",
+		"/Users/ruochen/Documents/WePlusWeb/db/seeds.rb",
+		"/Users/ruochen/Documents/WePlusWeb/app/views/layouts/_footer.html.erb",
+		"/Users/ruochen/Documents/WePlusWeb/app/views/home/about_us.html.erb",
+		"/Users/ruochen/Documents/WePlusWeb/app/assets/stylesheets/phone/pages/home/index.css.scss",
+		"/Users/ruochen/Documents/WePlusWeb/app/views/home/index.html+phone.erb",
+		"/Users/ruochen/Documents/WePlusWeb/app/views/events/_event.html.erb",
+		"/Users/ruochen/Documents/WePlusWeb/app/views/events/index.html+phone.erb",
+		"/Users/ruochen/Documents/WePlusWeb/app/views/articles/index.html+phone.erb",
+		"/Users/ruochen/Documents/tower-v3/app/views/weeklies/questions/_form.html.erb",
+		"/Users/ruochen/Documents/tower-v3/app/models/weeklies/question.rb",
+		"/Users/ruochen/Documents/tower-v3/app/views/weeklies/answers/_form.html.erb",
+		"/Users/ruochen/Documents/tower-v3/app/assets/javascripts/desktop/boards/components/list.coffee",
+		"/Users/ruochen/Documents/tower-v3/app/assets/javascripts/desktop/boards/lists/components/item.coffee",
+		"/Users/ruochen/Documents/tower-v3/app/views/boards/lists/_item.html.erb",
+		"/Users/ruochen/Documents/tower-v3/app/policies/boards/list_policy.rb",
+		"/Users/ruochen/Documents/tower-v3/app/views/components/cc_members/_list.html.erb",
+		"/Users/ruochen/Documents/tower-v3/app/views/boards/calendar_events/show.html.erb",
+		"/Users/ruochen/Documents/tower-v3/app/views/boards/forums/show.html.erb",
+		"/Users/ruochen/Documents/tower-v3/app/views/boards/forums/show.html+mobile.erb",
+		"/Users/ruochen/Documents/tower-v3/app/views/boards/calendar_events/show.html+mobile.erb",
+		"/Users/ruochen/Documents/tower-v3/app/policies/boards/forum_policy.rb",
+		"/Users/ruochen/Documents/tower/app/views/calendar_events/show.html.erb",
+		"/Users/ruochen/Documents/tower-v3/app/views/boards/file_centers/show.html.erb",
+		"/Users/ruochen/Documents/tower-v3/app/views/boards/file_centers/show.html+mobile.erb",
+		"/Users/ruochen/Documents/tower-v3/app/policies/comment_policy.rb",
+		"/Users/ruochen/Documents/tower-v3/app/views/comments/_list.html.erb",
+		"/Users/ruochen/Documents/tower-v3/app/views/folders/show.html+mobile.erb",
+		"/Users/ruochen/Documents/tower-v3/app/views/folders/show.html.erb",
+		"/Users/ruochen/Documents/tower-v3/app/views/attachments/show.html.erb",
+		"/Users/ruochen/Documents/tower-v3/app/views/folders/_item.html.erb",
+		"/Users/ruochen/Documents/tower-v3/app/assets/stylesheets/desktop/boards/components/item.scss",
+		"/Users/ruochen/Documents/tower-v3/app/views/reports/todos/_load_more.html.erb",
+		"/Users/ruochen/Documents/tower-v3/lib/assets/javascripts/shared/components/load_more.coffee",
+		"/Users/ruochen/Documents/tower-v3/lib/assets/javascripts/desktop/helpers/form.coffee",
+		"/Users/ruochen/Documents/tower-v3/app/assets/javascripts/application.coffee",
+		"/Users/ruochen/Documents/tower-v3/app/views/boards/lists/show.html+mobile.erb",
+		"/Users/ruochen/Documents/tower-v3/app/views/components/todos/_check_box.html.erb",
+		"/Users/ruochen/Documents/tower-v3/lib/assets/stylesheets/shared/todo_check_box.scss",
+		"/Users/ruochen/Documents/tower-v3/app/views/todos/show.html+mobile.erb",
+		"/Users/ruochen/Documents/tower-v3/config/locales/views/todos/zh-CN.yml",
+		"/Users/ruochen/Documents/tower-v3/app/assets/stylesheets/desktop/layouts/resource-notice.scss",
+		"/Users/ruochen/Documents/tower-v3/app/assets/stylesheets/mobile/layouts/resource-notice.scss",
+		"/Users/ruochen/Documents/tower-v3/app/views/boards/lists/destroy.js.erb",
+		"/Users/ruochen/Documents/tower-v3/app/views/boards/lists/update.js.erb",
+		"/Users/ruochen/Documents/tower-v3/app/views/members/introductions/update.js.erb",
+		"/Users/ruochen/Documents/tower-v3/app/views/todos/update.js.erb",
+		"/Users/ruochen/Documents/tower-v3/app/views/components/todos/_item.html+mobile.erb",
+		"/Users/ruochen/Documents/tower-v3/app/assets/stylesheets/mobile/boards/lists/show_page.scss",
+		"/Users/ruochen/Documents/tower-v3/app/views/documents/show.html+mobile.erb",
+		"/Users/ruochen/Documents/tower-v3/app/assets/stylesheets/desktop/boards/lists/show_page.scss",
+		"/Users/ruochen/Documents/tower-v3/app/views/weeklies/questions/show.js.erb",
+		"/Users/ruochen/Documents/tower-v3/app/assets/stylesheets/mobile/boards/lists/archives/index_page.scss",
+		"/Users/ruochen/Documents/tower-v3/app/assets/stylesheets/desktop/boards/lists/archives/index_page.scss",
+		"/Users/ruochen/Documents/tower-v3/lib/assets/stylesheets/shared/trix_custom.scss",
+		"/Users/ruochen/Documents/tower-v3/lib/assets/stylesheets/shared/trix-content.scss",
+		"/Users/ruochen/Documents/tower-v3/vendor/assets/stylesheets/trix.css",
+		"/Users/ruochen/Documents/tower-v3/app/assets/stylesheets/electron.scss",
+		"/Users/ruochen/Documents/tower-v3/.csscomb.json",
+		"/Users/ruochen/Documents/tower-v3/tower.sublime-project",
+		"/Users/ruochen/Documents/WePlusWeb/app/views/layouts/_nav.html+phone.erb",
+		"/Users/ruochen/Documents/WePlusWeb/app/views/layouts/_banner.html+phone.erb",
+		"/Users/ruochen/Documents/tower-v3/app/assets/javascripts/desktop/avatars/components/uploader.coffee",
+		"/Users/ruochen/Documents/tower-v3/lib/assets/stylesheets/shared/tao_check_box_custom.scss",
+		"/Users/ruochen/Documents/tower-v3/lib/assets/javascripts/tao/ui/icons/tower.coffee",
+		"/Users/ruochen/Documents/tower-v3/app/views/components/teams/_notification.html.erb",
+		"/Users/ruochen/Documents/tower-v3/app/views/attachments/_form.html.erb",
+		"/Users/ruochen/Documents/tower-v3/app/views/boards/_form.html+mobile.erb",
+		"/Users/ruochen/Documents/tower-v3/app/views/boards/_form.html.erb",
+		"/Users/ruochen/Documents/tower-v3/app/views/boards/_form_rename.html.erb",
+		"/Users/ruochen/Documents/tower-v3/app/views/boards/accesses/index.html+mobile.erb",
+		"/Users/ruochen/Documents/tower-v3/app/views/boards/accesses/index.html.erb",
+		"/Users/ruochen/Documents/tower-v3/app/views/boards/calendar_events/_form.html+mobile.erb",
+		"/Users/ruochen/Documents/tower-v3/app/views/boards/calendar_events/_form.html.erb",
+		"/Users/ruochen/Documents/tower-v3/app/views/boards/calendar_events/destroy_confirmations/_form.html.erb",
+		"/Users/ruochen/Documents/tower-v3/app/views/boards/file_centers/_form.html.erb",
+		"/Users/ruochen/Documents/tower-v3/app/views/boards/forums/_form.html.erb",
+		"/Users/ruochen/Documents/tower-v3/app/views/boards/groups/_form.html.erb",
+		"/Users/ruochen/Documents/tower-v3/app/views/boards/groups/_index_dialog.html.erb",
+		"/Users/ruochen/Documents/tower-v3/app/views/boards/lists/_form.html.erb",
+		"/Users/ruochen/Documents/tower-v3/app/views/boards/paragraphs/_form.html.erb",
+		"/Users/ruochen/Documents/tower-v3/app/views/cc_members/_form.html.erb",
+		"/Users/ruochen/Documents/tower-v3/app/views/comments/_form.html.erb",
+		"/Users/ruochen/Documents/tower-v3/app/views/documents/_form.html.erb",
+		"/Users/ruochen/Documents/tower-v3/app/views/folders/_form.html.erb",
+		"/Users/ruochen/Documents/tower-v3/app/views/members/groups/_form.html.erb",
+		"/Users/ruochen/Documents/tower-v3/app/views/members/groups/_index_dialog.html.erb",
+		"/Users/ruochen/Documents/tower-v3/app/views/members/introductions/_form.html.erb",
+		"/Users/ruochen/Documents/tower-v3/app/views/members/manages/edit.html.erb",
+		"/Users/ruochen/Documents/tower-v3/app/views/members/manages/boards/new.html.erb",
+		"/Users/ruochen/Documents/tower-v3/app/views/members/manages/groups/new.html.erb",
+		"/Users/ruochen/Documents/tower-v3/app/views/members/manages/roles/new.html.erb",
+		"/Users/ruochen/Documents/tower-v3/app/views/members/mobiles/_form.html.erb",
+		"/Users/ruochen/Documents/tower-v3/app/views/members/names/_form.html.erb",
+		"/Users/ruochen/Documents/tower-v3/app/views/members/notification_settings/show.html.erb"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+			"",
+			"*/policies/*",
+			"policies/*",
+			"",
+			"*.scss",
+			"",
+			"*.html.erb",
+			"",
+			"*.yml",
+			"*.html.erb",
+			"",
+			"*.rb",
+			"",
+			"/Users/ruochen/Documents/tower-v3/lib/assets/javascripts/shared/components/assignee_select",
+			"",
+			"*.js.erb",
+			"",
+			"*.html.erb",
+			"",
+			"*.rb",
+			"",
+			"*.yml",
+			"",
+			"*.html.erb",
+			"",
+			"beast_blog/",
+			"",
+			"zhiren/",
+			"",
+			"beast_blog/*",
+			"",
+			"mobile/",
+			"",
+			"_connect:",
+			"",
+			"*.scss",
+			"",
+			"*.erb",
+			"",
+			"*.rb",
+			"",
+			"*.rb",
+			"",
+			"*.erb",
+			"",
+			"*.coffee",
+			"",
+			"*.coffee",
+			"",
+			"*.rb",
+			"",
+			"mobile/",
+			"",
+			"mobile/",
+			"",
+			"mobile/",
+			"",
+			"*.coffee",
+			"*.js",
+			"",
+			"*.js",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			";",
+			"todoStorage",
+			"todos",
+			"news",
+			"{",
+			".unarchived",
+			".archive",
+			"-toolbar {",
+			".todo-toolbar",
+			".todo-to",
+			".todo-toolbar",
+			"def exist?",
+			"!deleted?",
+			"def exist?",
+			"exist?",
+			"<%= select_tag",
+			"load_spa",
+			"space-map",
+			"load_spa",
+			"city.space",
+			"city.",
+			"load_space",
+			"load_city",
+			"load_sp",
+			"def load_ci",
+			"mon",
+			"/mon",
+			"enrollment",
+			"There are",
+			":sortable => ",
+			"file_center_policy",
+			"<div class=\"attachment-toolbar\">",
+			"archived",
+			"data-block-anchor",
+			"todo_assign:",
+			"twr-todo-check-box",
+			"policy",
+			"Turbolinks.visit(location.href",
+			".visit",
+			"turbolinks.vis",
+			"turbolinks",
+			"turbolinks.vis",
+			"boards-show-page",
+			"downcase",
+			"downcase(",
+			"component.todo",
+			"boards-lists-show-page",
+			"mobile",
+			"twr-todo-load-more",
+			"boards-lists-show-page",
+			"-load-more')[0]",
+			"weekly-answer",
+			"boards-lists-archives-index-page",
+			"data-archived",
+			".list-info",
+			"attachment__caption",
+			"[",
+			"link-subscribe",
+			"€",
+			"€€",
+			"html",
+			"link-subscribe",
+			"\"link-subscribe\"",
+			"link-subscribe",
+			"link-tel",
+			".link-tel",
+			"download-banner",
+			"<%= tao_icon 'check' %>",
+			"<%= tao_icon :check %>",
+			"tao_icon :check",
+			"    margin-top: -0.25rem;",
+			".member-status ",
+			"<%= render 'teams/activities/load_more' %>",
+			"I18n.translations || (I18n.translations = {});",
+			"twr_team_activ",
+			"twr_acti",
+			"_load_more",
+			"$('twr-report-todo-load-more')[0].update($items);",
+			"-load-more')[0]",
+			"$('twr-load-more')[0].update($items,",
+			"twr-load-more",
+			"target-list-selector",
+			"twr-team-activity-load-more",
+			"-load-more",
+			"answers/load",
+			"twr_topic_",
+			"todo_load_more",
+			"twr-notification-load-more",
+			"completion-Url",
+			"completion_Url",
+			"completionUrl",
+			"@attribute '",
+			"isAdding",
+			"is_adding",
+			"is-adding",
+			"@attribute '",
+			"listId",
+			"@attribute '",
+			"time",
+			"<twr-time",
+			"target_selector",
+			"I18n.locale",
+			"require i18n",
+			" i18n",
+			"class: 'lo",
+			"class: '",
+			"twr-board-trash-list",
+			"autosave_recovery",
+			"loading_text:",
+			"LoadMore extends TaoComponent",
+			"zhiren_icon",
+			"tao_ui",
+			"class",
+			" class=\"Page-1\"",
+			"class=\"Desktop\" ",
+			"zhiren_icon",
+			"limit",
+			"more_completed_todos",
+			".small-link",
+			"_xhrUpload",
+			".copyright",
+			"class.",
+			".downcase",
+			"componentable_type",
+			"class.",
+			"table_name.singularize",
+			".class.",
+			".class.name"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"entries",
+			"todo",
+			"<%= tao_icon 'twr-check' %>",
+			"$('twr-load-more')[0].update($items);",
+			"LoadMore extends TaoComponent",
+			"",
+			"'",
+			".trix-button--icon",
+			"<%= tao_icon 'option-with-color', class: 'icon-large' %>",
+			"popover",
+			"'file-folder-with-color'",
+			"'file-default-with-color'",
+			"'file-document-with-color'",
+			"box-shadow: 0 0.5rem 1.5rem 0 rgba(27, 24, 33, 0.1);",
+			"font-size",
+			"font-size-l",
+			"font-size-s;",
+			"limit: 10",
+			"'loading-text': t(:loading_text)",
+			"",
+			".event-",
+			".event",
+			"event",
+			"item",
+			"@document",
+			"loading_text: t(:loading_text)",
+			"1rem",
+			" I18n.t(",
+			" '",
+			"'",
+			"",
+			"'",
+			"",
+			"-",
+			"",
+			"label-select",
+			"",
+			"todos-list",
+			"<%= render 'members/header', member: @member, ",
+			"panel",
+			"member",
+			"@import 'desktop/base';",
+			"tooltip",
+			"nav-item",
+			"<time class=\"activity-date\">",
+			"members-table",
+			"\n\n  def boards_collections(member)\n    board_ids = member.accesses.pluck(:board_id)\n    Board.where(id: board_ids).pluck(:name, :id)\n  end",
+			"Tao.Popover.closeAll();",
+			"Tao.Dialog.closeAll()",
+			"Tao.Dialog.closeAll();",
+			"placeholder_desc",
+			"  ",
+			"close-form",
+			"div>",
+			"",
+			"font-weight-bold",
+			"font-weight-medium",
+			"font-weight-normal",
+			"component-block",
+			"component-sortable",
+			":",
+			"",
+			"<%= tao_icon 'option', class: 'icon-small' %>",
+			"",
+			"component-block",
+			"component-sortable",
+			"component-block",
+			"",
+			"item",
+			"<div ",
+			"</div>",
+			"<div>",
+			"",
+			"component.event",
+			"@event.",
+			"event",
+			"",
+			"0.2",
+			"0.1",
+			"",
+			"ff.",
+			"",
+			"<%= tao_form",
+			"",
+			"close-dialog",
+			"type: :button",
+			"link-compontent",
+			"class: 'link-creator-compontent', remote:",
+			"height: 42px;",
+			"twr-board-component-creator",
+			"",
+			"36px 0",
+			"@tag ",
+			"component.todo",
+			"@todo.",
+			"@todo",
+			"item",
+			"tao_icon",
+			"@tao",
+			"=",
+			"board",
+			"42px",
+			"'",
+			"",
+			"<%= d_id",
+			".trix-content",
+			"currentPage.jq",
+			"$page = currentPage.jq",
+			"",
+			"  ",
+			"TowerApplication",
+			"失去网络连接，",
+			"  ",
+			"file-",
+			"$member",
+			"$members",
+			"",
+			"  ",
+			"成员",
+			"成员分组",
+			"  ",
+			"你",
+			"关联",
+			"分组",
+			"member",
+			"  ",
+			"没有账号",
+			"账号"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 70.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "project.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"joinrequesthtmlerb",
+				"app/views/teams/join_requests/approvals/new.html.erb"
+			],
+			[
+				"teacon",
+				"app/controllers/teams_controller.rb"
+			],
+			[
+				"calec",
+				"app/controllers/teams/calendars_controller.rb"
+			],
+			[
+				"eventpil",
+				"app/policies/boards/calendar_event_policy.rb"
+			],
+			[
+				"boardhtml",
+				"app/views/layouts/board.html.erb"
+			],
+			[
+				"eventformhtml",
+				"app/views/calendar_events/_form.html.erb"
+			],
+			[
+				"eventnewhtml",
+				"app/views/calendar_events/new.html.erb"
+			],
+			[
+				"todoshowcoffee",
+				"app/assets/javascripts/desktop/todos/show_page.coffee"
+			],
+			[
+				"todoitemhtml",
+				"app/views/components/todos/_item.html.erb"
+			],
+			[
+				"boardpo",
+				"app/policies/board_policy.rb"
+			],
+			[
+				"boardrb",
+				"app/models/board.rb"
+			],
+			[
+				"app/models/board.rb",
+				"app/models/board.rb"
+			],
+			[
+				"boardpol",
+				"app/policies/board_policy.rb"
+			],
+			[
+				"boardheade",
+				"app/views/boards/_header.html.erb"
+			],
+			[
+				"boardpolicy",
+				"app/policies/board_policy.rb"
+			],
+			[
+				"memstarrn",
+				"app/components/members/star_component.rb"
+			],
+			[
+				"memberstarhtml",
+				"app/views/components/members/_star.html.erb"
+			],
+			[
+				"listshowhtml",
+				"app/views/boards/lists/show.html.erb"
+			],
+			[
+				"todoshowhtml",
+				"app/views/todos/show.html.erb"
+			],
+			[
+				"spaceshowhtml",
+				"app/views/spaces/show.html.erb"
+			],
+			[
+				"spaceindexhtml",
+				"app/views/spaces/index.html.erb"
+			],
+			[
+				"apphtml",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"appjs",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"spaceindecoffee",
+				"app/assets/javascripts/pages/spaces/index.js.coffee"
+			],
+			[
+				"seed",
+				"db/seeds.rb"
+			],
+			[
+				"rub",
+				".ruby-version"
+			],
+			[
+				"spachtml",
+				"app/views/spaces/index.html.erb"
+			],
+			[
+				"footerhtml",
+				"app/views/layouts/_footer.html.erb"
+			],
+			[
+				"ab",
+				"app/views/home/about_us.html.erb"
+			],
+			[
+				"eventh",
+				"app/views/events/_event.html.erb"
+			],
+			[
+				"eventhtml",
+				"app/views/events/_event.html.erb"
+			],
+			[
+				"homeindexscss",
+				"app/assets/stylesheets/phone/pages/home/index.css.scss"
+			],
+			[
+				"homeindex",
+				"app/views/home/index.html+phone.erb"
+			],
+			[
+				"index",
+				"app/views/articles/index.html+phone.erb"
+			],
+			[
+				"ruby",
+				".ruby-version"
+			],
+			[
+				"about",
+				"app/views/home/about_us.html.erb"
+			],
+			[
+				"queformhtml",
+				"app/views/weeklies/questions/_form.html.erb"
+			],
+			[
+				"quest",
+				"app/models/weeklies/question.rb"
+			],
+			[
+				"answerform",
+				"app/views/weeklies/answers/_form.html.erb"
+			],
+			[
+				"boardlistcoffee",
+				"app/assets/javascripts/desktop/boards/components/list.coffee"
+			],
+			[
+				"listpol",
+				"app/policies/boards/list_policy.rb"
+			],
+			[
+				"listitemcoffee",
+				"app/assets/javascripts/desktop/boards/lists/components/item.coffee"
+			],
+			[
+				"listitemhtml",
+				"app/views/boards/lists/_item.html.erb"
+			],
+			[
+				"forumshow",
+				"app/views/boards/forums/show.html+mobile.erb"
+			],
+			[
+				"forumpoil",
+				"app/policies/boards/forum_policy.rb"
+			],
+			[
+				"forshowhtml",
+				"app/views/boards/forums/show.html.erb"
+			],
+			[
+				"eventshowhtml",
+				"app/views/boards/calendar_events/show.html+mobile.erb"
+			],
+			[
+				"eventpolicy",
+				"app/policies/boards/calendar_event_policy.rb"
+			],
+			[
+				"ccmemlisthtml",
+				"tower-v3/app/views/components/cc_members/_list.html.erb"
+			],
+			[
+				"filecentershowhtml",
+				"tower-v3/app/views/boards/file_centers/show.html+mobile.erb"
+			],
+			[
+				"filecenterhtml",
+				"tower-v3/app/views/boards/file_centers/show.html.erb"
+			],
+			[
+				"foldershowhtml",
+				"tower-v3/app/views/folders/show.html+mobile.erb"
+			],
+			[
+				"attshowhtm",
+				"tower-v3/app/views/attachments/show.html.erb"
+			],
+			[
+				"foldershow",
+				"tower-v3/app/views/folders/show.html.erb"
+			],
+			[
+				"folderitemhtml",
+				"tower-v3/app/views/folders/_item.html.erb"
+			],
+			[
+				"boarditemcss",
+				"tower-v3/app/assets/stylesheets/desktop/boards/components/item.scss"
+			],
+			[
+				"commpolicy",
+				"tower-v3/app/policies/comment_policy.rb"
+			],
+			[
+				"comments/listht",
+				"tower-v3/app/views/comments/_list.html.erb"
+			],
+			[
+				"formcoffee",
+				"tower-v3/lib/assets/javascripts/desktop/helpers/form.coffee"
+			],
+			[
+				"loadmorecoffee",
+				"tower-v3/lib/assets/javascripts/shared/components/load_more.coffee"
+			],
+			[
+				"reportloadmore",
+				"tower-v3/app/views/reports/todos/_load_more.html.erb"
+			],
+			[
+				"appcoffee",
+				"tower-v3/app/assets/javascripts/application.coffee"
+			],
+			[
+				"todoshow",
+				"tower-v3/app/views/todos/show.html+mobile.erb"
+			],
+			[
+				"todocheckboxhtml",
+				"tower-v3/app/views/components/todos/_check_box.html.erb"
+			],
+			[
+				"listdes",
+				"tower-v3/app/views/boards/lists/destroy.js.erb"
+			],
+			[
+				"todoupdatejs",
+				"tower-v3/app/views/todos/update.js.erb"
+			],
+			[
+				"listupdate",
+				"tower-v3/app/views/boards/lists/update.js.erb"
+			],
+			[
+				"commentpolicy",
+				"tower-v3/app/policies/comment_policy.rb"
+			],
+			[
+				"listpio",
+				"tower-v3/app/policies/boards/list_policy.rb"
+			],
+			[
+				"todoitemmobile",
+				"tower-v3/app/views/components/todos/_item.html+mobile.erb"
+			],
+			[
+				"listshowht",
+				"tower-v3/app/views/boards/lists/show.html+mobile.erb"
+			],
+			[
+				"docshowht",
+				"tower-v3/app/views/documents/show.html+mobile.erb"
+			],
+			[
+				"resonoti",
+				"tower-v3/app/assets/stylesheets/mobile/layouts/resource-notice.scss"
+			],
+			[
+				"listshow",
+				"tower-v3/app/views/boards/lists/show.html.erb"
+			],
+			[
+				"listpolic",
+				"tower-v3/app/policies/boards/list_policy.rb"
+			],
+			[
+				"resnoti",
+				"tower-v3/app/assets/stylesheets/desktop/layouts/resource-notice.scss"
+			],
+			[
+				"trixcontent",
+				"lib/assets/stylesheets/shared/trix-content.scss"
+			],
+			[
+				"trixcu",
+				"lib/assets/stylesheets/shared/trix_custom.scss"
+			],
+			[
+				".css",
+				".csscomb.json"
+			],
+			[
+				".scss",
+				"app/assets/stylesheets/electron.scss"
+			],
+			[
+				"header",
+				"app/assets/stylesheets/components/header.scss"
+			],
+			[
+				"banner",
+				"app/views/layouts/_banner.html+phone.erb"
+			],
+			[
+				"headerhtml",
+				"app/views/layouts/_header.html.erb"
+			],
+			[
+				"app/views/spaces/index.html.erb",
+				"app/views/spaces/index.html.erb"
+			],
+			[
+				"taocheckbox",
+				"lib/assets/stylesheets/shared/tao_check_box_custom.scss"
+			],
+			[
+				"todocheckbox",
+				"lib/assets/stylesheets/shared/todo_check_box.scss"
+			],
+			[
+				"uibasecoffee",
+				"lib/assets/javascripts/tao/ui/icons/base.coffee"
+			],
+			[
+				"baseicon",
+				"lib/assets/stylesheets/shared/icon.scss"
+			],
+			[
+				"ge",
+				"Gemfile.lock"
+			],
+			[
+				"avatarcoffee",
+				"app/assets/javascripts/desktop/avatars/components/uploader.coffee"
+			],
+			[
+				"towercoffee",
+				"lib/assets/javascripts/tao/ui/icons/tower.coffee"
+			],
+			[
+				"memberindexscss",
+				"app/assets/stylesheets/desktop/members/index_page.scss"
+			],
+			[
+				"actiindex",
+				"app/views/teams/activities/index.html+mobile.erb"
+			],
+			[
+				"memactivshowht",
+				"app/views/members/activities/show.html+mobile.erb"
+			],
+			[
+				"loadmorecss",
+				"lib/assets/stylesheets/desktop/components/load_more.scss"
+			],
+			[
+				"calshowhtml",
+				"app/views/boards/calendar_events/show.html.erb"
+			],
+			[
+				"i18n",
+				"config/i18n-js.yml"
+			],
+			[
+				"i18njs",
+				"lib/assets/javascripts/mobile/i18n/zh-CN.js"
+			],
+			[
+				"18njs",
+				"lib/assets/javascripts/mobile/i18n/zh-CN.js"
+			],
+			[
+				"memberactisho",
+				"app/views/members/activities/show.html.erb"
+			],
+			[
+				"memactshwoht",
+				"app/views/members/activities/show.html.erb"
+			],
+			[
+				"actiinexhtml",
+				"app/views/teams/activities/index.html.erb"
+			],
+			[
+				"actiloadcoffee",
+				"app/assets/javascripts/shared/teams/activities/components/load_more.coffee"
+			],
+			[
+				"activloadmore",
+				"app/views/teams/activities/_load_more.html.erb"
+			],
+			[
+				"trashshowhtml",
+				"app/views/boards/trashes/show.html.erb"
+			],
+			[
+				"actiloadmore",
+				"app/views/teams/activities/_load_more.html.erb"
+			],
+			[
+				"loadmorehtml",
+				"app/views/members/_load_more.html.erb"
+			],
+			[
+				"weekanswerloadm",
+				"app/views/weeklies/answers/_load_more.html.erb"
+			],
+			[
+				"topicloadmore",
+				"app/components/topics/load_more_component.rb"
+			],
+			[
+				"notiloadmore",
+				"app/views/notifications/_load_more.html.erb"
+			],
+			[
+				"notoloadmore",
+				"app/components/notifications/load_more_component.rb"
+			],
+			[
+				"memindexjs",
+				"app/views/members/index.js.erb"
+			],
+			[
+				"memberpagerb",
+				"app/models/members/pagination_service.rb"
+			],
+			[
+				"memberindexjs",
+				"app/views/members/index.js.erb"
+			],
+			[
+				"memloadmorehtml",
+				"app/views/members/_load_more.html.erb"
+			],
+			[
+				"memberloadmore",
+				"app/assets/javascripts/shared/members/components/load_more.coffee"
+			],
+			[
+				"searchhtmlerb",
+				"app/views/teams/searches/show.html.erb"
+			],
+			[
+				"lib/assets/javascripts/desktop/i18n/zh-cn.js",
+				"lib/assets/javascripts/desktop/i18n/zh-CN.js"
+			],
+			[
+				"config/locales/frontend/zh-cn.yml",
+				"config/locales/frontend/zh-CN.yml"
+			],
+			[
+				"searchscss",
+				"app/assets/stylesheets/desktop/teams/searches/show_page.scss"
+			],
+			[
+				"timecoffee",
+				"lib/assets/javascripts/shared/components/time.coffee"
+			],
+			[
+				"searchresu",
+				"app/views/teams/searches/_results.html.erb"
+			],
+			[
+				"trashlistcoffee",
+				"app/assets/javascripts/desktop/boards/trashes/components/list.coffee"
+			],
+			[
+				"loadmorescss",
+				"lib/assets/stylesheets/mobile/components/load_more.scss"
+			],
+			[
+				"loadmore",
+				"lib/assets/stylesheets/desktop/components/load_more.scss"
+			],
+			[
+				"trashshowjs",
+				"app/views/boards/trashes/show.js.erb"
+			],
+			[
+				"trushowjs",
+				"app/views/reports/todos/overdues/show.js.erb"
+			],
+			[
+				".lock",
+				"Gemfile.lock"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 243.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
