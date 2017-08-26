@@ -1,4 +1,8 @@
-# readhub.tab
+# Readhub.Tab
+
+Online Demo: <http://kenya.kshift.me>
+
+私用 Readhub.me 浏览器扩展，Chrome 商店地址之后附上。
 
 > A Vue.js project
 
