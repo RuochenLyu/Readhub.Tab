@@ -1,8 +1,11 @@
 # Readhub.Tab
 
-Online Demo: <http://kenya.kshift.me>
+Readhub.me Chrome 新标签页插件。
 
-私用 Readhub.me 浏览器扩展，Chrome 商店地址之后附上。
+* [Chrome Store](https://chrome.google.com/webstore/detail/readhubtab/lplndfbdjbiofehpnckdkfjobpdbfpma)
+* [Online Demo](http://kenya.kshift.me)
+
+---
 
 > A Vue.js project
 

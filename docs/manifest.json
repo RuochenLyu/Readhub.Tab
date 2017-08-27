@@ -8,5 +8,12 @@
   {
     "newtab": "index.html"
   },
-  "permissions": ["storage", "http://api.rss2json.com/*"]
+  "permissions": ["storage", "http://api.rss2json.com/*"],
+  "icons":
+  {
+    "16": "static/icon16.png",
+    "48": "static/icon48.png",
+    "128": "static/icon128.png",
+    "256": "static/icon256.png"
+  }
 }
