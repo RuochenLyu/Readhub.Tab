@@ -1,6 +1,8 @@
 <template>
-  <div class="card card-1" v-on:click="visit(entry.link)" v-bind:class="{ active: isActive }">
-    <h3 class="card-title">{{ entry.title | pangu }}</a></h3>
+  <div class="entry" v-bind:class="{ active: isActive }">
+    <h3 class="title">
+      <a :href="entry.link">{{ entry.title | pangu }}</a>
+    </h3>
     <div class="meta">
       <time>{{ `${entry.pubDate}+00:00` | moment('from') }}</time>
       <span>{{ entry.author }}</span>
@@ -33,30 +35,23 @@ export default {
     }, 500)
   },
 
-  methods: {
-    visit: function (link) {
-      location.href = link
-    }
-  },
-
   filters: {
     pangu: function (value) {
       if (!value) return ''
-      return pangu.spacing(value)
+      let el = document.createElement('div')
+      el.innerHTML = value
+      return pangu.spacing(el.innerHTML)
     }
   }
 }
 </script>
 
 <style lang="scss" scoped>
-.card {
-  margin: 30px;
-  padding: 16px;
-  width: 600px;
+.entry {
+  margin-bottom: 30px;
   opacity: 0;
-  cursor: pointer;
-  transform: translateX(-3rem);
-  transition: all 500ms cubic-bezier(.7,0,.1,1) 0;
+  transform: translateX(-5rem);
+  transition: transform 500ms cubic-bezier(.7,0,.1,1), opacity 500ms cubic-bezier(.7,0,.1,1);
 
   @for $i from 1 through 10 {
     &:nth-child(#{$i}) {
@@ -69,15 +64,22 @@ export default {
     opacity: 1;
   }
 
-  &:hover {
-    .card-title {
-      color: #E37148;
-    }
+  &:last-child {
+    margin-bottom: 0;
   }
 
-  .card-title {
-    font-size: 20px;
-    transition: color 300ms cubic-bezier(.25,.8,.25,1);
+  .title a {
+    color: #151719;
+    font-size: 24px;
+    border-bottom: 2px solid transparent;
+
+    &:hover {
+      border-bottom: 2px solid currentColor;
+    }
+
+    &:visited {
+      color: #BFBFBF;
+    }
   }
 
   time {

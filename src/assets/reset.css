@@ -38,11 +38,11 @@ html {
 
 body {
   font-family: PingFang SC, Helvetica Neue, Microsoft YaHei, sans-serif;
-  color: #3D3D3D;
+  color: #151719;
   line-height: 1.5;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: #f2f2f2;
 }
 
 h1, h2, h3, h4, h5, h6 {
