@@ -11,6 +11,20 @@ ins, a {
   text-decoration: none;
 }
 
+button {
+  background: none;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  line-height: normal;
+  overflow: visible;
+  padding: 0;
+  -webkit-appearance: button; /* for input */
+  -webkit-user-select: none; /* for button */
+  outline: 0;
+}
+
 html *,
 html *:before,
 html *:after {
