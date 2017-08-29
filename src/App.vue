@@ -47,6 +47,7 @@ export default {
     updateChannel: function (val) {
       this.channel = val
       this.fetchData()
+      storage.channel.save(val)
     }
   }
 }
