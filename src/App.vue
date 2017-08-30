@@ -20,7 +20,7 @@ export default {
 
   data: function () {
     return {
-      entries: [],
+      entries: storage.fetch(),
       channel: storage.channel.fetch()
     }
   },

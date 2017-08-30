@@ -1,6 +1,6 @@
 # Readhub.Tab
 
-Readhub.me Chrome 新标签页插件。
+> Readhub.me Chrome 新标签页插件。
 
 * [Chrome Store](https://chrome.google.com/webstore/detail/readhubtab/lplndfbdjbiofehpnckdkfjobpdbfpma)
 * [Online Demo](http://kenya.kshift.me)
