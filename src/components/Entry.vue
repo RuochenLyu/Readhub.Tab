@@ -40,7 +40,7 @@ export default {
       if (!value) return ''
       let el = document.createElement('div')
       el.innerHTML = value
-      return pangu.spacing(el.innerHTML)
+      return pangu.spacing(el.innerText)
     }
   }
 }
