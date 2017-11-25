@@ -1,11 +1,11 @@
 <template>
   <div class="entry" v-bind:class="{ active: isActive }">
     <h3 class="title">
-      <a :href="entry.link">{{ entry.title | pangu }}</a>
+      <a :href="entry | renderUrl">{{ entry.title | pangu }}</a>
     </h3>
     <div class="meta">
-      <time>{{ `${entry.pubDate}+00:00` | moment('from') }}</time>
-      <span>{{ entry.author }}</span>
+      <time>{{ entry.publishDate | moment('from') }}</time>
+      <span>{{ entry.siteName || `${entry.newsArray.length} 个来源` }}</span>
     </div>
   </div>
 </template>
@@ -41,6 +41,14 @@ export default {
       let el = document.createElement('div')
       el.innerHTML = value
       return pangu.spacing(el.innerText)
+    },
+
+    renderUrl: function (entry) {
+      if (entry.newsArray) {
+        return `https://readhub.me/topic/${entry.id}`
+      } else {
+        return entry.url
+      }
     }
   }
 }

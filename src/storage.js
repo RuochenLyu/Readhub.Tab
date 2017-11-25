@@ -1,4 +1,4 @@
-const STORAGE_KEY = 'readhub.tab/v1.1'
+const STORAGE_KEY = 'readhub.tab/v1.2'
 
 export default {
   fetch: function () {
@@ -11,7 +11,7 @@ export default {
 
   channel: {
     fetch: function () {
-      return localStorage.getItem(`${STORAGE_KEY}/channel`) || 'topics'
+      return localStorage.getItem(`${STORAGE_KEY}/channel`) || 'topic'
     },
 
     save: function (channel) {

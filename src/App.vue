@@ -32,15 +32,13 @@ export default {
   methods: {
     fetchData: function () {
       let self = this
-      this.$http.get('http://api.rss2json.com/v1/api.json', {
+      this.$http.get(`https://api.readhub.me/${self.channel}`, {
         params: {
-          rss_url: `http://readhub.bayes.cafe/rss?channel=${self.channel}`,
-          api_key: 'havl9vqc7nmdjlmbofbltgeej3q0gqweh0ftpd3k',
-          count: 15
+          pageSize: 15
         }
       }).then(function (response) {
-        self.entries = response.data.items
-        storage.save(response.data.items)
+        self.entries = response.data.data
+        storage.save(response.data.data)
       })
     },
 
