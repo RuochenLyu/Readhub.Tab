@@ -61,7 +61,7 @@ export default {
   transform: translateX(-5rem);
   transition: transform 500ms cubic-bezier(.7,0,.1,1), opacity 500ms cubic-bezier(.7,0,.1,1);
 
-  @for $i from 1 through 10 {
+  @for $i from 1 through 20 {
     &:nth-child(#{$i}) {
       transition-delay: #{25 * $i}ms;
     }

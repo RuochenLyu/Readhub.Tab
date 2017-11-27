@@ -34,7 +34,7 @@ export default {
       let self = this
       this.$http.get(`https://api.readhub.me/${self.channel}`, {
         params: {
-          pageSize: 15
+          pageSize: 20
         }
       }).then(function (response) {
         self.entries = response.data.data
