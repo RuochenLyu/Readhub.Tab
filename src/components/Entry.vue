@@ -1,7 +1,7 @@
 <template>
   <div class="entry" v-bind:class="{ active: isActive }">
     <h3 class="title">
-      <a :href="entry | renderUrl">{{ entry.title | pangu }}</a>
+      <a :href="entry | renderUrl"><span v-if="entry.order > 1000000">🔝</span> {{ entry.title | pangu }}</a>
     </h3>
     <div class="meta">
       <time>{{ entry.publishDate | moment('from') }}</time>
@@ -87,6 +87,10 @@ export default {
 
     &:visited {
       color: #BFBFBF;
+    }
+
+    span {
+      font-size: 18px;
     }
   }
 
