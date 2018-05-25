@@ -5,7 +5,12 @@
     </h3>
     <div class="meta">
       <time>{{ entry.publishDate | moment('from') }}</time>
-      <span>{{ entry.siteName || `${entry.newsArray.length} 个来源` }}</span>
+      <a :href="entry.url" v-if="entry.siteName">{{ entry.siteName}}</a>
+
+      <template v-for="(item, index) in entry.newsArray">
+        <a :href="item.url" v-if="index < 3">{{item.siteName}}</a>
+        <span v-if="index >= 3 && (index + 1 == entry.newsArray.length)">等 {{entry.newsArray.length}} 个来源</span>
+      </template>
     </div>
   </div>
 </template>
@@ -101,6 +106,18 @@ export default {
   .meta {
     color: #BFBFBF;
     font-size: 14px;
+
+    a {
+      color: #BFBFBF;
+
+      &:hover {
+        border-bottom: 1px solid currentColor;
+      }
+
+      &:visited {
+        color: #BFBFBF;
+      }
+    }
   }
 }
 </style>
