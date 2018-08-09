@@ -32,7 +32,7 @@ export default {
   methods: {
     fetchData: function () {
       let self = this
-      this.$http.get(`https://api.readhub.me/${self.channel}`, {
+      this.$http.get(`https://api.readhub.cn/${self.channel}`, {
         params: {
           pageSize: 20
         }

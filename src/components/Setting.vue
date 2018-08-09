@@ -1,6 +1,6 @@
 <template>
   <div class="setting">
-    <a href="https://readhub.me" class="source">Readhub</a>
+    <a href="https://readhub.cn" class="source">Readhub</a>
     <select id="channel" :value="channel" @change="updateChannel">
       <option value="topic">热门话题</option>
       <option value="news">科技动态</option>

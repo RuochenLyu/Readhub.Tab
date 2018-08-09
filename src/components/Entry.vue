@@ -50,7 +50,7 @@ export default {
 
     renderUrl: function (entry) {
       if (entry.newsArray) {
-        return `https://readhub.me/topic/${entry.id}`
+        return `https://readhub.cn/topic/${entry.id}`
       } else {
         return entry.url
       }

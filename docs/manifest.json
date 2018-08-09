@@ -1,14 +1,14 @@
 {
   "manifest_version": 2,
   "name": "Readhub.Tab",
-  "description": "Readhub.me 新标签页插件",
-  "version": "1.2.5",
+  "description": "Readhub 新标签页插件",
+  "version": "1.2.6",
   "incognito": "split",
   "chrome_url_overrides":
   {
     "newtab": "index.html"
   },
-  "permissions": ["storage", "https://api.readhub.me/*"],
+  "permissions": ["storage", "https://api.readhub.cn/*"],
   "icons":
   {
     "16": "static/icon16.png",
