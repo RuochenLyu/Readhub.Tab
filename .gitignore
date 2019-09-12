@@ -13,3 +13,6 @@ yarn-error.log*
 *.sln
 *.sublime-workspace
 *.sublime-project
+
+package-lock.json
+yarn.lock

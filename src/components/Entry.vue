@@ -64,7 +64,8 @@ export default {
   margin-bottom: 30px;
   opacity: 0;
   transform: translateX(-5rem);
-  transition: transform 500ms cubic-bezier(.7,0,.1,1), opacity 500ms cubic-bezier(.7,0,.1,1);
+  transition: transform 500ms cubic-bezier(0.7, 0, 0.1, 1),
+    opacity 500ms cubic-bezier(0.7, 0, 0.1, 1);
 
   @for $i from 1 through 20 {
     &:nth-child(#{$i}) {
@@ -82,7 +83,7 @@ export default {
   }
 
   .title a {
-    color: #151719;
+    color: #212121;
     font-size: 24px;
     border-bottom: 2px solid transparent;
 
@@ -91,7 +92,7 @@ export default {
     }
 
     &:visited {
-      color: #BFBFBF;
+      color: #bfbfbf;
     }
 
     span {
@@ -104,18 +105,42 @@ export default {
   }
 
   .meta {
-    color: #BFBFBF;
+    color: #bfbfbf;
     font-size: 14px;
 
     a {
-      color: #BFBFBF;
+      color: #bfbfbf;
 
       &:hover {
         border-bottom: 1px solid currentColor;
       }
 
       &:visited {
-        color: #BFBFBF;
+        color: #bfbfbf;
+      }
+    }
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .entry {
+    .title a {
+      color: #ededed;
+
+      &:visited {
+        color: #555;
+      }
+    }
+
+    .meta {
+      color: #555;
+
+      a {
+        color: #555;
+
+        &:visited {
+          color: #555;
+        }
       }
     }
   }

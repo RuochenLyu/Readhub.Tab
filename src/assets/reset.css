@@ -67,7 +67,7 @@ button {
 html *,
 html *:before,
 html *:after {
-  box-sizing: inherit
+  box-sizing: inherit;
 }
 
 html {
@@ -77,13 +77,12 @@ html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -ms-overflow-style: scrollbar;
-  -webkit-tap-highlight-color: transparent
+  -webkit-tap-highlight-color: transparent;
 }
 
-
 @font-face {
-  font-family: 'Calluna Serif';
-  src: url(./calluna-bold.woff) format('woff');
+  font-family: "Calluna Serif";
+  src: url(./calluna-bold.woff) format("woff");
   font-weight: 700;
   font-style: normal;
   font-display: fallback;
@@ -91,13 +90,12 @@ html {
 
 body {
   font-family: PingFang SC, Helvetica Neue, Microsoft YaHei, sans-serif;
-  color: #151719;
+  color: #212121;
   line-height: 1.5;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   animation: colorchange 2s;
   animation-fill-mode: forwards;
-
 }
 
 h1,
@@ -106,9 +104,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Calluna Serif', 'Title Serif', 'Source Han Serif SC', 'Songti SC', SimSun, serif;
-  -webkit-font-feature-settings: 'lnum';
-  font-feature-settings: 'lnum';
+  font-family: "Calluna Serif", "Title Serif", "Source Han Serif SC",
+    "Songti SC", SimSun, serif;
+  -webkit-font-feature-settings: "lnum";
+  font-feature-settings: "lnum";
 }
 
 @keyframes colorchange {
@@ -117,5 +116,20 @@ h6 {
   }
   to {
     background-color: #f2f2f2;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #ededed;
+  }
+
+  @keyframes colorchange {
+    from {
+      background-color: #323639;
+    }
+    to {
+      background-color: #212121;
+    }
   }
 }

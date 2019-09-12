@@ -41,7 +41,7 @@ export default {
 }
 
 .source {
-  color: #BFBFBF;
+  color: #bfbfbf;
   font-size: 14px;
 
   &:hover {
@@ -60,7 +60,7 @@ export default {
   svg {
     width: 14px;
     height: 14px;
-    fill: #BFBFBF;
+    fill: #bfbfbf;
   }
 }
 
@@ -73,7 +73,21 @@ select {
   cursor: pointer;
 
   &:hover + .label-channel svg {
-    fill: #151719;
+    fill: #212121;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .source {
+    color: #555;
+  }
+
+  .label-channel svg {
+    fill: #555;
+  }
+
+  select:hover + .label-channel svg {
+    fill: #ededed;
   }
 }
 </style>
