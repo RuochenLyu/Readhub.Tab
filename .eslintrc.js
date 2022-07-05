@@ -1,27 +1,49 @@
-// http://eslint.org/docs/user-guide/configuring
-
 module.exports = {
-  root: true,
-  parser: 'babel-eslint',
-  parserOptions: {
-    sourceType: 'module'
-  },
   env: {
     browser: true,
+    es2020: true,
   },
-  // https://github.com/feross/standard/blob/master/RULES.md#javascript-standard-style
-  extends: 'standard',
-  // required to lint *.vue files
-  plugins: [
-    'html'
+  extends: [
+    'airbnb-base',
+    'plugin:react/recommended',
+    'plugin:react-hooks/recommended',
   ],
-  // add your custom rules here
-  'rules': {
-    // allow paren-less arrow functions
-    'arrow-parens': 0,
-    // allow async-await
-    'generator-star-spacing': 0,
-    // allow debugger during development
-    'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0
-  }
-}
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
+    ecmaVersion: 11,
+    sourceType: 'module',
+  },
+  plugins: ['react'],
+  rules: {
+    'react/react-in-jsx-scope': 'off',
+    'react/jsx-filename-extension': 'off',
+    'react/prop-types': 'off',
+    'import/order': [
+      'warn',
+      {
+        groups: [
+          'builtin',
+          'external',
+          'internal',
+          'parent',
+          'sibling',
+          'index',
+          'object',
+        ],
+      },
+    ],
+  },
+  settings: {
+    react: {
+      version: 'detect',
+    },
+    'import/resolver': {
+      node: {
+        paths: ['.'],
+      },
+    },
+    'import/core-modules': ['fs', 'path'],
+  },
+};
