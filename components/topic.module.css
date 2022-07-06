@@ -28,12 +28,12 @@
 
 .meta {
   font-size: 14px;
-  color: #bfbfbf;
+  color: var(--text-color-light);
 }
 
 .meta a {
   margin-right: 5px;
-  color: #bfbfbf;
+  color: var(--text-color-light);
 }
 
 .title a:hover {
@@ -41,7 +41,7 @@
 }
 
 .title a:visited {
-  color: #bfbfbf;
+  color: var(--text-color-light);
 }
 
 .meta a:hover {
@@ -49,7 +49,7 @@
 }
 
 .meta a:visited {
-  color: #bfbfbf;
+  color: var(--text-color-light);
 }
 
 .meta time {

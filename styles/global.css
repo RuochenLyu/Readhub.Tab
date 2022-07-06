@@ -1,6 +1,6 @@
 :root {
   --text-color: #212121;
-  --text-color-light: #a0aec0;
+  --text-color-light: #bfbfbf;
   --background-color: #f2f2f2;
 }
 
@@ -48,6 +48,8 @@ a {
 
 @media (prefers-color-scheme: dark) {
   :root {
+    --text-color: #ccc;
+    --text-color-light: #555;
     --background-color: #212121;
   }
 }
