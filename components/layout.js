@@ -2,8 +2,8 @@ import NextHead from 'next/head';
 
 export default function Layout({
   children,
-  title = 'Readhub.Tab',
-  description = 'Chrome extensions for readhub',
+  title = 'New Tab',
+  description = '',
   url = 'https://chrome.google.com/webstore/detail/readhubtab/lplndfbdjbiofehpnckdkfjobpdbfpma',
   image = 'https://lh3.googleusercontent.com/SkFq_GgqYK1TuK3Ktt-tplDPFkG58oapsBABn8pssnINiWIYPv4UCOMjiPIjQ97U5zYm7TlOcPOaA4-61eYpduYKrA=w640-h400-e365-rj-sc0x00ffffff',
 }) {
