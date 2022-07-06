@@ -2,10 +2,10 @@ import NextHead from 'next/head';
 
 export default function Layout({
   children,
-  title = 'Next.js Template',
-  description = 'Next.js Template',
-  url = 'https://de4js.kshift.me',
-  image = 'https://de4js.kshift.me/card.png',
+  title = 'Readhub.Tab',
+  description = 'Chrome extensions for readhub',
+  url = 'https://chrome.google.com/webstore/detail/readhubtab/lplndfbdjbiofehpnckdkfjobpdbfpma',
+  image = 'https://lh3.googleusercontent.com/SkFq_GgqYK1TuK3Ktt-tplDPFkG58oapsBABn8pssnINiWIYPv4UCOMjiPIjQ97U5zYm7TlOcPOaA4-61eYpduYKrA=w640-h400-e365-rj-sc0x00ffffff',
 }) {
   return (
     <>
@@ -17,9 +17,7 @@ export default function Layout({
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-        <link rel="icon" sizes="192x192" href="/touch-icon.png" />
-        <link rel="apple-touch-icon" href="/touch-icon.png" />
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="/icon48.png" />
         <link rel="manifest" href="/manifest.json" />
         <meta property="og:url" content={url} />
         <meta property="og:title" content={title} />

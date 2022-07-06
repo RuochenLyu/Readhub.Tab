@@ -1,0 +1,57 @@
+@keyframes animation {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.topic {
+  margin-bottom: 30px;
+  animation: ease-in animation 200ms;
+}
+
+.title {
+  font-size: 24px;
+}
+
+.title a {
+  color: var(--text-color);
+  border-bottom: 2px solid transparent;
+}
+
+.title span {
+  font-size: 18px;
+}
+
+.meta {
+  font-size: 14px;
+  color: #bfbfbf;
+}
+
+.meta a {
+  margin-right: 5px;
+  color: #bfbfbf;
+}
+
+.title a:hover {
+  border-bottom: 2px solid currentcolor;
+}
+
+.title a:visited {
+  color: #bfbfbf;
+}
+
+.meta a:hover {
+  border-bottom: 1px solid currentcolor;
+}
+
+.meta a:visited {
+  color: #bfbfbf;
+}
+
+.meta time {
+  margin-right: 10px;
+}

@@ -4,13 +4,16 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export && mv out/_next out/next && sed -i '' -e 's/\\/_next/\\.\\/next/g' out/**.html",
     "start": "next start"
   },
   "dependencies": {
+    "dayjs": "^1.11.3",
     "next": "12.2.0",
+    "pangu": "^4.0.7",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "swr": "2.0.0-beta.6"
   },
   "devDependencies": {
     "@babel/eslint-parser": "7.18.2",
@@ -21,6 +24,7 @@
     "eslint-plugin-react": "7.30.1",
     "eslint-plugin-react-hooks": "4.6.0",
     "stylelint": "14.9.1",
+    "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-recess-order": "3.0.0",
     "stylelint-config-standard": "26.0.0",
     "stylelint-order": "5.0.0"

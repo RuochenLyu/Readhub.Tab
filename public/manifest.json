@@ -1,21 +1,11 @@
 {
-  "name": "Nextjs Template",
-  "short_name": "Nextjs Template",
-  "description": "",
-  "background_color": "#edf2f7",
-  "theme_color": "#edf2f7",
-  "display": "minimal-ui",
-  "start_url": "/",
-  "icons": [
-    {
-      "src": "/touch-icon.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "/touch-icon-512x512.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
-  ]
+  "manifest_version": 3,
+  "name": "Readhub.Tab",
+  "description": "Readhub 新标签页插件",
+  "version": "2.0.0",
+  "incognito": "split",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "host_permissions": ["https://api.readhub.cn/"]
 }

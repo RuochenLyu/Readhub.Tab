@@ -1,68 +1,53 @@
 :root {
-  --text-color: #2d3748;
+  --text-color: #212121;
   --text-color-light: #a0aec0;
-  --background-color: #f7f9f9;
-  --ui-color: #e7742e;
-  --font-family:
-    -apple-system,
-    "BlinkMacSystemFont",
-    "Segoe UI",
-    "Roboto",
-    "Helvetica",
-    "Arial",
-    "PingFang SC",
-    "Microsoft YaHei",
-    "微软雅黑",
-    sans-seri,
-    "Apple Color Emoji",
-    "Segoe UI Emoji",
-    "Segoe UI Symbol";
-  --monospace-font:
-    menlo,
-    monaco,
-    lucida console,
-    liberation mono,
-    dejavu sans mono,
-    bitstream vera sans mono,
-    courier new,
-    monospace;
+  --background-color: #f2f2f2;
+}
+
+@font-face {
+  font-family: 'Calluna Serif';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/calluna-bold.woff') format('woff');
+  font-display: fallback;
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+  text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: transparent;
 }
 
 body {
-  font-family: var(--font-family);
+  font-family: 'PingFang SC', 'Helvetica Neue', 'Microsoft YaHei', sans-serif;
   font-size: 14px;
+  line-height: 1.5;
   color: var(--text-color);
-  background: var(--background-color);
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--background-color);
 }
 
-button {
-  width: auto;
-  height: 40px;
-  padding: 0 12px;
-  margin: 0;
-  overflow: visible;
-  font: inherit;
-  font-weight: bold;
-  line-height: normal;
-  color: inherit;
-  cursor: pointer;
-  background: transparent;
-  border: none;
-  border-radius: 4px;
-  outline: none;
-  appearance: none;
-  -webkit-font-smoothing: inherit;
-  -moz-osx-font-smoothing: inherit;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Calluna Serif', 'Title Serif', 'Source Han Serif SC',
+    'Songti SC', simsun, serif;
+  font-feature-settings: 'lnum';
 }
 
-button:hover {
-  opacity: 0.7;
+ins,
+a {
+  text-decoration: none;
 }
 
-button:active {
-  opacity: 0.9;
-}
-
-button[disabled] {
-  background: #ccc !important;
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #212121;
+  }
 }
