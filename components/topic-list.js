@@ -6,7 +6,7 @@ const fetcher = (...args) => fetch(...args).then((res) => res.json());
 
 export default function TopicList() {
   const { data, error } = useSWR(
-    'https://api.readhub.cn/topic?pageSize=20',
+    'https://api.readhub.cn/topic/list?size=20&type=day',
     fetcher,
   );
 
@@ -14,8 +14,8 @@ export default function TopicList() {
 
   return (
     <main className={styles.main}>
-      {data.data.map((topic) => (
-        <Topic key={topic.id} topic={topic} />
+      {data.data.items.map((topic) => (
+        <Topic key={topic.uid} topic={topic} />
       ))}
     </main>
   );

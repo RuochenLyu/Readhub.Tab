@@ -18,7 +18,6 @@ export default function Layout({
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
         <link rel="icon" href="/icon48.png" />
-        <link rel="manifest" href="/manifest.json" />
         <meta property="og:url" content={url} />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />

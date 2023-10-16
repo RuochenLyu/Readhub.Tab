@@ -2,10 +2,17 @@
   "manifest_version": 3,
   "name": "Readhub.Tab",
   "description": "Readhub 新标签页插件",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "incognito": "split",
   "chrome_url_overrides": {
     "newtab": "index.html"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png",
+    "256": "icon256.png"
   },
   "host_permissions": ["https://api.readhub.cn/"]
 }
