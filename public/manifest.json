@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Readhub.Tab",
   "description": "Readhub 新标签页插件",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "incognito": "split",
   "chrome_url_overrides": {
     "newtab": "index.html"

@@ -12,9 +12,6 @@ export default function Topic({ topic }) {
       </h3>
       <div className={styles.meta}>
         <time>{dayjs(topic.publishDate).fromNow()}</time>
-        {topic.siteNameDisplay && (
-          <a href={topic.url}>{topic.siteNameDisplay}</a>
-        )}
         {topic.newsAggList.map((item, index) => {
           if (index < 3) {
             return (
