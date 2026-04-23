@@ -1,7 +1,9 @@
 :root {
-  --text-color: #212121;
-  --text-color-light: #bfbfbf;
+  --text-color: #1a1a1a;
+  --text-color-light: #9a9a9a;
+  --text-color-meta: #c4c4c4;
   --background-color: #f2f2f2;
+  --skeleton-bg: #e2e2e2;
 }
 
 @font-face {
@@ -23,11 +25,12 @@ html {
 body {
   font-family: 'PingFang SC', 'Helvetica Neue', 'Microsoft YaHei', sans-serif;
   font-size: 14px;
-  line-height: 1.5;
+  line-height: 1.6;
   color: var(--text-color);
   text-rendering: optimizelegibility;
   -webkit-font-smoothing: antialiased;
   background-color: var(--background-color);
+  text-autospace: normal;
 }
 
 h1,
@@ -36,9 +39,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Calluna Serif', 'Title Serif', 'Source Han Serif SC',
-    'Songti SC', simsun, serif;
+  font-family: 'Calluna Serif', 'Source Han Serif SC', 'Songti SC', simsun, serif;
   font-feature-settings: 'lnum';
+  letter-spacing: -0.005em;
+  text-wrap: pretty;
 }
 
 ins,
@@ -48,8 +52,19 @@ a {
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --text-color: #ccc;
-    --text-color-light: #555;
-    --background-color: #212121;
+    --text-color: #c8c8c8;
+    --text-color-light: #6e6e6e;
+    --text-color-meta: #4a4a4a;
+    --background-color: #1a1a1a;
+    --skeleton-bg: #2b2b2b;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
   }
 }

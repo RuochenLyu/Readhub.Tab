@@ -1,32 +1,24 @@
 {
-  "name": "nextjs-template",
-  "version": "0.1.0",
+  "name": "readhub-tab",
+  "version": "3.0.0",
+  "description": "Readhub 新标签页插件",
   "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build && next export && mv out/_next out/next && sed -i '' -e 's/\\/_next/\\.\\/next/g' out/**.html",
-    "start": "next start"
+    "dev": "vite",
+    "build": "vite build",
+    "zip": "cd dist && zip -r ../readhub-tab.zip .",
+    "gen:icons": "node scripts/gen-icons.mjs"
   },
   "dependencies": {
-    "dayjs": "^1.11.3",
-    "next": "12.2.0",
-    "pangu": "^4.0.7",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "swr": "2.0.0-beta.6"
+    "preact": "^10.29.1"
   },
   "devDependencies": {
-    "@babel/eslint-parser": "7.18.2",
-    "eslint": "8.19.0",
-    "eslint-config-airbnb-base": "15.0.0",
-    "eslint-import-resolver-webpack": "0.13.2",
-    "eslint-plugin-import": "2.26.0",
-    "eslint-plugin-react": "7.30.1",
-    "eslint-plugin-react-hooks": "4.6.0",
-    "stylelint": "14.9.1",
-    "stylelint-config-prettier": "^9.0.3",
-    "stylelint-config-recess-order": "3.0.0",
-    "stylelint-config-standard": "26.0.0",
-    "stylelint-order": "5.0.0"
+    "@crxjs/vite-plugin": "^2.4.0",
+    "@preact/preset-vite": "^2.10.5",
+    "@resvg/resvg-js": "^2.6.2",
+    "opentype.js": "^1.3.4",
+    "typescript": "^5.9.3",
+    "vite": "^8.0.8"
   }
 }

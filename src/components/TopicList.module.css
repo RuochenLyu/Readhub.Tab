@@ -1,0 +1,10 @@
+.main {
+  padding: 30px 120px 30px 30px;
+}
+
+.error {
+  color: var(--text-color-light);
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  padding: 24px 0;
+}

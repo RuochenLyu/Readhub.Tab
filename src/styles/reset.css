@@ -23,12 +23,10 @@ dd {
   margin: 0;
 }
 
-/* Set core body defaults */
+/* Set core body defaults (font/color/line-height live in global.css) */
 body {
   min-height: 100vh;
-  line-height: 1.5;
   scroll-behavior: smooth;
-  text-rendering: optimizespeed;
 }
 
 /*
