@@ -1,6 +1,6 @@
 {
   "name": "readhub-tab",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Readhub 新标签页插件",
   "private": true,
   "type": "module",
